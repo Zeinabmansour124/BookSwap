@@ -16,3 +16,5 @@ Favoris : ajout de livres aimés et consultation rapide.
 Suivi des échanges : visualisation de l’état des échanges.
 Reading Room : espace collaboratif pour lire et échanger avec d’autres lecteurs.
 Gestion de compte : inscription, connexion et gestion du profil
+Public cible:
+   les bouquinistes les librairies en ligne
