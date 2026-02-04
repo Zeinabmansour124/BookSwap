@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <div>
+            <div class="logo">
+                <img src="C:\gl2\sem2\dev web\projetWeb\.vscode\Capture d'écran 2026-02-03 203049.png" alt="logo" width="50" height="50" >
+                <h>
+                    BOOKSWAP
+                </h>
+                <div class="tagline">
+                    read , share , exchange
+                </div>
+            </div>
+            <div class="sections"></div>
+                <ul>
+                    <li>
+                        <img src="C:\gl2\sem2\dev web\projetWeb\.vscode\Tiny house.jpeg" alt="logo" width="30" height="30" >
+                        <span>Marketplace </span>
+
+                    </li>
+                    <li>
+                        <img src="C:\gl2\sem2\dev web\projetWeb\.vscode\télécharger (4).jpeg" alt="logo" width="30" height="30" >
+                        <span>Messages</span>
+                    </li>
+                    <li>
+                        <img src="C:\gl2\sem2\dev web\projetWeb\.vscode\Logo.jpeg" alt="logo" width="30" height="30" >
+                        <span>Exchanges</span>
+                    </li>
+                    <li>
+                        <img src="C:\gl2\sem2\dev web\projetWeb\.vscode\Capture d'écran 2026-02-04 094851.png" alt="logo" width="30" height="30" >
+                        <span>Favorites</span>
+                    </li>
+                    <li>
+                        <img src="C:\gl2\sem2\dev web\projetWeb\.vscode\télécharger (5).jpeg" alt="logo" width="30" height="30" >
+                        <span>Reading Rooms</span>
+                    </li>
+                    <li> 
+                        <img src="C:\gl2\sem2\dev web\projetWeb\.vscode\Ghost Reader - Logo Concept_ #Ghost #Ghosts #readersofinsta #readers #readingcommunity #readings #logodesigner #logoartist #logoinspirations #logo #designlogo #branding #designstudio #graphicdesigners.jpeg" alt="logo" width="30" height="30" >
+                        <span>Profile</span>
+                    </li>
+                    <li>
+                        <img src="C:\gl2\sem2\dev web\projetWeb\.vscode\télécharger (7).jpeg" alt="logo" width="30" height="30" >
+                        <span>Settings</span>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <section class="exchange interface">
+        <article class="head1"> 
+            <img src="C:\gl2\sem2\dev web\projetWeb\.vscode\Logo.jpeg" alt="logo" width="50" height="50" >
+                <h>
+                    BOOKEXCHANGES
+                </h>
+                <div class="tagline">
+                <th>
+                    Manage your book exchanges requests 
+                </th>
+                </div>
+        </article>
+        <article class="marges">
+            <div class="total exchanges">
+                <div class="stat-label">Total Exchanges</div>
+                <div class="stat-number" id="total-exchanges">0</div>
+            </div>
+            <div class=""active">
+                <div class="stat-label">Active </div> 
+                <div class="stat-number" id="active">0</div>   
+            </div>
+            <div class="completed">
+                <div class="stat-label">Completed </div>
+                <div class="stat-number" id="completed">0</div>
+            </div>
+            <div class="Success Rate ">
+                <div class="stat-label">Success Rate </div>
+                <div class="stat-number" id="success-rate">0%</div>
+            </div>
+        </article>
+        <article class="empl">
+            <INPUT TYPE="submit" VALUE="Active Exchanges" class="Active">
+            <INPUT TYPE="submit" VALUE="Completed" class="Completed">
+            <INPUT TYPE="submit" VALUE="All Exchanges" class="">
+        </article>
+    </section>
+    <section class="accepted">
+        <h>
+            <img src="C:\gl2\sem2\dev web\projetWeb\.vscode\MASTANGRAPHIC Author Portfolio _ Freepik.jpeg" alt="accepted icon" width="30" height="30">
+            Exchange Accepted 
+            
+        </h>
+            <button type="button" id="chat-button">
+            Chat <span id="message-count">(0)</span>
+            </button>
+            <div class="devider">  </div>
+            <div id="livresEchnangesAcceptes"> 
+                
+            </div>
+            <template id="bookAdd">
+                <div class ="offering date">
+                you offered : <span id="offered-date"> Loading...</span>
+                </div>
+                <div class="book-exchange">
+                    <div class="offered-book">
+                        <h3>Your Book</h3>
+                    <img class="cover" data-book-id="" src="" alt="Book Cover" width="100" height="150">
+                    <article class="book-details">
+                        <th class="title" data-book-id=""> Loading...</th>
+                        <div class="author" data-book-id=""> Loading...</div>
+                        <div class="condition" data-book-id=""> Condition: Loading...</div>
+                    </article>
+                    </div>
+                    <img src="C:\gl2\sem2\dev web\projetWeb\.vscode\Illustration of switch arrows _ Free Vector.jpeg" alt="exchange icon" width="50" height="50">
+                    <div class="received-book">
+                        <h3>Received Book</h3>
+                    <img class="cover1" data-book-id="" src="" alt="Book Cover1" width="100" height="150">
+                    <article class="book-details1">
+                        <th class="title1" data-book-id=""> Loading...</th>
+                        <div class="author1" data-book-id=""> Loading...</div>
+                        <div class="condition1" data-book-id=""> Condition: Loading...</div>
+                    </article>
+                    </div>
+            </template>
+
+    </section>
+    <section class="pendingResponse">
+        <h>
+            <img src="C:\gl2\sem2\dev web\projetWeb\.vscode\Doodle hand drawn clock time timer fast speed alarm time management icon symbol illustration vector _ Premium Vector.jpeg" alt="pending icon" width="30" height="30">
+            Pending Response
+        </h>
+        <button type="button1" id="chat-button">
+            Chat <span id="message-count1">(0)</span>
+            </button>
+            <div class="devider1">  </div>
+            <div id="LivresEnAttente">  </div>
+            <template id="book_requested">
+                <div class ="requesting date">
+                you requested: <span id="requested-date"> Loading...</span>
+                </div>
+                 <div class="book-waiting-response">
+                    <div class="your-book">
+                        <h3>Your Book</h3>
+                    <img class="cover2" data-book-id="" src="" alt="Book Cover2" width="100" height="150">
+                    <article class="book-details2">
+                        <th class="title2" data-book-id=""> Loading...</th>
+                        <div class="author2" data-book-id=""> Loading...</div>
+                        <div class="condition2" data-book-id=""> Condition: Loading...</div>
+                    </article>
+                    </div>
+                    <img src="C:\gl2\sem2\dev web\projetWeb\.vscode\Illustration of switch arrows _ Free Vector.jpeg" alt="exchange icon" width="50" height="50">
+                    <div class="their-book">
+                        <h3>Received Book</h3>
+                    <img class="cover3" data-book-id="" src="" alt="Book Cover3" width="100" height="150">
+                    <article class="book-details3">
+                        <th class="title3" data-book-id=""> Loading...</th>
+                        <div class="author3" data-book-id=""> Loading...</div>
+                        <div class="condition3" data-book-id=""> Condition: Loading...</div>
+                    </article>
+                    </div>
+                <div class="requesting persons">
+                </div>
+                <template id="requesting-person">
+                    <img id="userImage" src="" alt="User Image" width="50" height="50">
+                    <div class="userDescription">
+                        <div class="username" id="username"> Loading...</div>
+                        <div class="location" id="location"> Loading...</div>
+                        <div class="rate"></div>
+                        <img src="C:\Users\zeina\Downloads\Star Patterns and Templates (Stencils and Clip Art Designs) - Free Printables, Lettering, SVG Files, Tools & Apps.jpeg" alt="Star Rating" width="50" height="50">
+                        <div class="rating" id="rating"> Loading...</div>
+                        </div>
+                    </div>
+                    <INPUT TYPE="submit" VALUE="Decline" class="refuse">
+                    <INPUT TYPE="submit" VALUE="Accept" class="Accept">
+                </template>
+            </template>
+
+
+    </section>
+</html>
